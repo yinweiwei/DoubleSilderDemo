@@ -329,6 +329,7 @@
 				B165111B1FB3065F00743296 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
