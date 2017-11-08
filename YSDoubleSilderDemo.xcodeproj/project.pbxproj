@@ -13,6 +13,8 @@
 		B16511101FB3065F00743296 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B165110E1FB3065F00743296 /* Main.storyboard */; };
 		B16511121FB3065F00743296 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B16511111FB3065F00743296 /* Assets.xcassets */; };
 		B16511151FB3065F00743296 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B16511131FB3065F00743296 /* LaunchScreen.storyboard */; };
+		B16511201FB306F400743296 /* YSDoubleSilderV.m in Sources */ = {isa = PBXBuildFile; fileRef = B165111E1FB306F400743296 /* YSDoubleSilderV.m */; };
+		B16511211FB306F400743296 /* YSDoubleSilderV.xib in Resources */ = {isa = PBXBuildFile; fileRef = B165111F1FB306F400743296 /* YSDoubleSilderV.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		B16511111FB3065F00743296 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B16511141FB3065F00743296 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B16511161FB3065F00743296 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B165111D1FB306F400743296 /* YSDoubleSilderV.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YSDoubleSilderV.h; sourceTree = "<group>"; };
+		B165111E1FB306F400743296 /* YSDoubleSilderV.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YSDoubleSilderV.m; sourceTree = "<group>"; };
+		B165111F1FB306F400743296 /* YSDoubleSilderV.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSDoubleSilderV.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,7 @@
 		B16511041FB3065F00743296 /* YSDoubleSilderDemo */ = {
 			isa = PBXGroup;
 			children = (
+				B165111C1FB306F400743296 /* DoubleSilderV */,
 				B16511081FB3065F00743296 /* AppDelegate.h */,
 				B16511091FB3065F00743296 /* AppDelegate.m */,
 				B165110B1FB3065F00743296 /* ViewController.h */,
@@ -77,6 +83,16 @@
 				B16511061FB3065F00743296 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B165111C1FB306F400743296 /* DoubleSilderV */ = {
+			isa = PBXGroup;
+			children = (
+				B165111D1FB306F400743296 /* YSDoubleSilderV.h */,
+				B165111E1FB306F400743296 /* YSDoubleSilderV.m */,
+				B165111F1FB306F400743296 /* YSDoubleSilderV.xib */,
+			);
+			path = DoubleSilderV;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +153,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B16511211FB306F400743296 /* YSDoubleSilderV.xib in Resources */,
 				B16511151FB3065F00743296 /* LaunchScreen.storyboard in Resources */,
 				B16511121FB3065F00743296 /* Assets.xcassets in Resources */,
 				B16511101FB3065F00743296 /* Main.storyboard in Resources */,
@@ -150,6 +167,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B16511201FB306F400743296 /* YSDoubleSilderV.m in Sources */,
 				B165110D1FB3065F00743296 /* ViewController.m in Sources */,
 				B165110A1FB3065F00743296 /* AppDelegate.m in Sources */,
 				B16511071FB3065F00743296 /* main.m in Sources */,
